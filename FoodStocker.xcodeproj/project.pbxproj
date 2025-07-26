@@ -14,19 +14,11 @@
 			remoteGlobalIDString = D0C12FC02E32E0020033778E;
 			remoteInfo = FoodStocker;
 		};
-		D0C12FE02E32E0040033778E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0C12FB92E32E0020033778E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D0C12FC02E32E0020033778E;
-			remoteInfo = FoodStocker;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D0C12FC12E32E0020033778E /* FoodStocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodStocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C12FD52E32E0040033778E /* FoodStockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodStockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0C12FDF2E32E0040033778E /* FoodStockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodStockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -75,13 +67,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0C12FDC2E32E0040033778E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,7 +85,6 @@
 			children = (
 				D0C12FC12E32E0020033778E /* FoodStocker.app */,
 				D0C12FD52E32E0040033778E /* FoodStockerTests.xctest */,
-				D0C12FDF2E32E0040033778E /* FoodStockerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,29 +137,6 @@
 			productReference = D0C12FD52E32E0040033778E /* FoodStockerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D0C12FDE2E32E0040033778E /* FoodStockerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D0C12FF02E32E0040033778E /* Build configuration list for PBXNativeTarget "FoodStockerUITests" */;
-			buildPhases = (
-				D0C12FDB2E32E0040033778E /* Sources */,
-				D0C12FDC2E32E0040033778E /* Frameworks */,
-				D0C12FDD2E32E0040033778E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D0C12FE12E32E0040033778E /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				D0C12FE22E32E0040033778E /* FoodStockerUITests */,
-			);
-			name = FoodStockerUITests;
-			packageProductDependencies = (
-			);
-			productName = FoodStockerUITests;
-			productReference = D0C12FDF2E32E0040033778E /* FoodStockerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -190,10 +151,6 @@
 						CreatedOnToolsVersion = 16.4;
 					};
 					D0C12FD42E32E0040033778E = {
-						CreatedOnToolsVersion = 16.4;
-						TestTargetID = D0C12FC02E32E0020033778E;
-					};
-					D0C12FDE2E32E0040033778E = {
 						CreatedOnToolsVersion = 16.4;
 						TestTargetID = D0C12FC02E32E0020033778E;
 					};
@@ -215,7 +172,6 @@
 			targets = (
 				D0C12FC02E32E0020033778E /* FoodStocker */,
 				D0C12FD42E32E0040033778E /* FoodStockerTests */,
-				D0C12FDE2E32E0040033778E /* FoodStockerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,13 +185,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D0C12FD32E32E0040033778E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0C12FDD2E32E0040033778E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -259,13 +208,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0C12FDB2E32E0040033778E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -273,11 +215,6 @@
 			isa = PBXTargetDependency;
 			target = D0C12FC02E32E0020033778E /* FoodStocker */;
 			targetProxy = D0C12FD62E32E0040033778E /* PBXContainerItemProxy */;
-		};
-		D0C12FE12E32E0040033778E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D0C12FC02E32E0020033778E /* FoodStocker */;
-			targetProxy = D0C12FE02E32E0040033778E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -290,6 +227,7 @@
 				CODE_SIGN_ENTITLEMENTS = FoodStocker/FoodStocker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FZ8ZXZS35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoodStocker/Info.plist;
@@ -319,6 +257,7 @@
 				CODE_SIGN_ENTITLEMENTS = FoodStocker/FoodStocker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FZ8ZXZS35;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoodStocker/Info.plist;
@@ -465,6 +404,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FZ8ZXZS35;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
@@ -483,6 +423,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5FZ8ZXZS35;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
@@ -492,38 +433,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodStocker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FoodStocker";
-			};
-			name = Release;
-		};
-		D0C12FF12E32E0040033778E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "adam001247-yahoo.fr.FoodStockerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FoodStocker;
-			};
-			name = Debug;
-		};
-		D0C12FF22E32E0040033778E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "adam001247-yahoo.fr.FoodStockerUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FoodStocker;
 			};
 			name = Release;
 		};
@@ -553,15 +462,6 @@
 			buildConfigurations = (
 				D0C12FEE2E32E0040033778E /* Debug */,
 				D0C12FEF2E32E0040033778E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D0C12FF02E32E0040033778E /* Build configuration list for PBXNativeTarget "FoodStockerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D0C12FF12E32E0040033778E /* Debug */,
-				D0C12FF22E32E0040033778E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

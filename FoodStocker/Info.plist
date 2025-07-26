@@ -2,9 +2,9 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIBackgroundModes</key>
-	<array>
-		<string>remote-notification</string>
-	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Cette application utilise la caméra pour scanner les codes-barres des produits alimentaires.</string>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>Cette application vous enverra des notifications pour vous alerter des produits proches de l'expiration.</string>
 </dict>
 </plist>
